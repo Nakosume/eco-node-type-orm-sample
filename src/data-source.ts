@@ -4,11 +4,11 @@ import { Task } from "./entities/Task"
 
 export const AppDataSource = new DataSource({
     type: 'postgres',
-    host: 'ep-nameless-tree-91732974.us-east-2.aws.neon.tech', // Your host
+    host: 'ep-proud-haze-26916324.us-east-2.aws.neon.tech', // Your host
     port: 5432, // Default PostgreSQL port
     username: 'fl0user', // Usuario || process.env.PORT
-    password: 'fn2vdPq8VzWi', // Contraseña
-    database: 'ECO-DB', // Nombre
+    password: 'DSVKdikms4c9', // Contraseña
+    database: 'JUJU', // Nombre
     synchronize: true, // Para Dev
     logging: true, // Para Dev
     entities: [Task],
