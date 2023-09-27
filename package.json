@@ -1,5 +1,5 @@
 {
-   "name": "@monk/template_nodejs_typeorm",
+   "name": "@Nakosume/template_nodejs_typeorm",
    "version": "1.0.0",
    "description": "Awesome project developed with TypeORM.",
    "type": "commonjs",
