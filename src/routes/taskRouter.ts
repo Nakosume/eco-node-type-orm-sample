@@ -20,4 +20,3 @@ router.delete('/tasks/', TaskController.deleteAllTasks);
 router.get('/', TaskController.sayHello);
 
 module.exports = router;
-

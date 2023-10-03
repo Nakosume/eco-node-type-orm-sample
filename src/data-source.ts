@@ -1,6 +1,7 @@
 import "reflect-metadata"
 import { DataSource } from "typeorm"
 import { Task } from "./entities/Task"
+import { User } from "./entities/User"
 
 export const AppDataSource = new DataSource({
     type: 'postgres',
@@ -11,7 +12,7 @@ export const AppDataSource = new DataSource({
     database: 'JUJU', // Nombre
     synchronize: true, // Para Dev
     logging: true, // Para Dev
-    entities: [Task],
+    entities: [Task,User],
     migrations: [],
     subscribers: [],
     ssl: { rejectUnauthorized: false }, // Ignora el error de certificado no confiable
